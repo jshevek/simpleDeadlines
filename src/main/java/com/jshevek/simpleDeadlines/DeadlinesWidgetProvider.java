@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines;
+package com.jshevek.simpleDeadlines;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -7,10 +7,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.widget.RemoteViews;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
-import com.casimirlab.simpleDeadlines.ui.DeadlineEditor;
-import com.casimirlab.simpleDeadlines.ui.EditorDialogFragment;
-import com.casimirlab.simpleDeadlines.ui.MainActivity;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.ui.DeadlineEditor;
+import com.jshevek.simpleDeadlines.ui.EditorDialogFragment;
+import com.jshevek.simpleDeadlines.ui.MainActivity;
 
 public class DeadlinesWidgetProvider extends AppWidgetProvider {
     @Override

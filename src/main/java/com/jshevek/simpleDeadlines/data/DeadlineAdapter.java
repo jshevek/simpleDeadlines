@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.data;
+package com.jshevek.simpleDeadlines.data;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -15,9 +15,9 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
-import com.casimirlab.simpleDeadlines.ui.DayCounterView;
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.ui.DayCounterView;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
 
 import java.text.DateFormat;
 import java.util.Date;

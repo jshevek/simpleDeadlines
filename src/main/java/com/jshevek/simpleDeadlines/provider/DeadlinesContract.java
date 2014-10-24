@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.provider;
+package com.jshevek.simpleDeadlines.provider;
 
 import android.net.Uri;
 

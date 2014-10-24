@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.data;
+package com.jshevek.simpleDeadlines.data;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.database.DatabaseUtils;
 import android.support.annotation.NonNull;
 import android.widget.SimpleCursorAdapter;
 
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
 
 public class GroupAdapter extends SimpleCursorAdapter {
     private static final String[] FromCols = {DeadlinesContract.Deadlines.GROUP};

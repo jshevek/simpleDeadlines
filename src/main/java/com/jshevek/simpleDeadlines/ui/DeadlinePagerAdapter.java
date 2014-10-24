@@ -1,9 +1,9 @@
-package com.casimirlab.simpleDeadlines.ui;
+package com.jshevek.simpleDeadlines.ui;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
 import java.util.LinkedList;
 import java.util.List;
 

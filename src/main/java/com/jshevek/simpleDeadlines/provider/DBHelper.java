@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.provider;
+package com.jshevek.simpleDeadlines.provider;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,9 +6,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.casimirlab.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.R;
 
-import static com.casimirlab.simpleDeadlines.provider.DeadlinesContract.Deadlines;
+import static com.jshevek.simpleDeadlines.provider.DeadlinesContract.Deadlines;
 
 public class DBHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "deadlines.db";

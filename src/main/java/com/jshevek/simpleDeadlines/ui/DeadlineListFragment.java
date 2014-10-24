@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.ui;
+package com.jshevek.simpleDeadlines.ui;
 
 import android.app.AlertDialog;
 import android.content.*;
@@ -13,10 +13,10 @@ import android.support.v4.content.Loader;
 import android.text.TextUtils;
 import android.view.*;
 import android.widget.*;
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.data.DeadlineAdapter;
-import com.casimirlab.simpleDeadlines.data.DeadlinesUtils;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.data.DeadlineAdapter;
+import com.jshevek.simpleDeadlines.data.DeadlinesUtils;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
 
 import java.util.ArrayList;
 import java.util.List;

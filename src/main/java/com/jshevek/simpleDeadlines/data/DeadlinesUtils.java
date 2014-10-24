@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.data;
+package com.jshevek.simpleDeadlines.data;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -10,8 +10,8 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 import android.util.Log;
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
 
 import java.io.*;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.ui;
+package com.jshevek.simpleDeadlines.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -23,10 +23,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.data.DeadlinesUtils;
-import com.casimirlab.simpleDeadlines.data.GroupAdapter;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.data.DeadlinesUtils;
+import com.jshevek.simpleDeadlines.data.GroupAdapter;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
 
 import java.util.Calendar;
 import java.util.Date;

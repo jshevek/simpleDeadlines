@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.ui;
+package com.jshevek.simpleDeadlines.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,8 +7,8 @@ import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.data.DeadlinesUtils;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.data.DeadlinesUtils;
 
 /**
  * Provide a simple view to display a count of days.

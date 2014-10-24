@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines;
+package com.jshevek.simpleDeadlines;
 
 import android.app.*;
 import android.content.*;
@@ -8,8 +8,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.widget.RemoteViews;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
-import com.casimirlab.simpleDeadlines.ui.MainActivity;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.ui.MainActivity;
 
 import java.util.Calendar;
 

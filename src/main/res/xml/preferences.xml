@@ -10,7 +10,7 @@
             android:summaryOn="@string/pref_sum_notif_persist_on"
             android:persistent="true"
             android:disableDependentsState="true" />
-        <com.casimirlab.simpleDeadlines.ui.TimePickerPreference
+        <com.jshevek.simpleDeadlines.ui.TimePickerPreference
             android:title="@string/pref_title_notif_hour"
             android:key="@string/pref_key_notif_hour"
             android:dialogLayout="@layout/time_picker_preference"

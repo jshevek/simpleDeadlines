@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.dashclock;
+package com.jshevek.simpleDeadlines.dashclock;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -7,10 +7,10 @@ import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.text.format.DateUtils;
 
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.data.DeadlinesUtils;
-import com.casimirlab.simpleDeadlines.provider.DeadlinesContract;
-import com.casimirlab.simpleDeadlines.ui.MainActivity;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.data.DeadlinesUtils;
+import com.jshevek.simpleDeadlines.provider.DeadlinesContract;
+import com.jshevek.simpleDeadlines.ui.MainActivity;
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
 

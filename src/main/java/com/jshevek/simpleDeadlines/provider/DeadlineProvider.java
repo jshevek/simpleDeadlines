@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.provider;
+package com.jshevek.simpleDeadlines.provider;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -16,13 +16,13 @@ import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.data.DeadlinesUtils;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.data.DeadlinesUtils;
 
 import java.util.Calendar;
 import java.util.Date;
 
-import static com.casimirlab.simpleDeadlines.provider.DeadlinesContract.Deadlines;
+import static com.jshevek.simpleDeadlines.provider.DeadlinesContract.Deadlines;
 
 /**
  * @see DeadlinesContract

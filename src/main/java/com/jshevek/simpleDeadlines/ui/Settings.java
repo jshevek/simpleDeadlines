@@ -1,4 +1,4 @@
-package com.casimirlab.simpleDeadlines.ui;
+package com.jshevek.simpleDeadlines.ui;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -9,9 +9,9 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.util.Log;
 
-import com.casimirlab.simpleDeadlines.NotificationCenter;
-import com.casimirlab.simpleDeadlines.R;
-import com.casimirlab.simpleDeadlines.data.DeadlinesUtils;
+import com.jshevek.simpleDeadlines.NotificationCenter;
+import com.jshevek.simpleDeadlines.R;
+import com.jshevek.simpleDeadlines.data.DeadlinesUtils;
 
 public class Settings extends PreferenceActivity {
     private static final String TAG = "Settings";
